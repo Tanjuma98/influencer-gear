@@ -88,6 +88,13 @@ main {
     max-width: 1060px;
     margin: 70px auto;
 }
+main hr{
+    margin: 16px;
+}
+.brands-img-container{
+    display: flex;
+    justify-content: space-around;
+}
 
 /* footer styles */
 footer {
@@ -125,6 +132,10 @@ footer .footer-icons {
     }
     .banner-img img{
         width: 100%;
+    }
+    .brands-img-container{
+        flex-wrap: wrap;
+        gap: 16px;
     }
     footer {
         padding: 20px 50px;
