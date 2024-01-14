@@ -1,3 +1,44 @@
+/* shared styles */
 *{
     font-family: 'Poppins', sans-serif;
+}
+.influencer-title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.small-text{
+    font-size: 14px;
+    font-weight: 700;
+}
+/* main styles */
+main{
+    max-width: 1060px;
+    margin: 70px auto;
+}
+/* footer styles */
+footer{
+    background-color: #0A0826;
+    padding: 50px 450px;
+    color: #FFF;
+    text-align: center;
+}
+footer *{
+    margin-bottom: 10px;
+}
+footer .footer-icons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+/* smaller devices */
+@media screen and (max-width: 576px) {
+    footer{
+        padding: 20px 50px;
+    }
+}
+/* medium devices */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    footer{
+        padding: 50px;
+    }
 }
